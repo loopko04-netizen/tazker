@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "تذكير",
+    "slug": "tathkeer-notes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "tathkeer",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tathkeer.notes"
+    },
+    "android": {
+      "package": "com.tathkeer.notes",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F7F5"
+      },
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-sqlite",
+        {
+          "enableFTS": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
